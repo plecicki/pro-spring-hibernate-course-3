@@ -3,6 +3,8 @@ package com.kodilla.tasklist;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+@ShowSuper(separator = " ->> ")
 public class TaskRepository {
     public static List<TaskDto> getRepository() {
         List<TaskDto> dtos = new ArrayList<TaskDto>();
